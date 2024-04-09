@@ -263,8 +263,26 @@ const styles = StyleSheet.create({
         marginStart:8
 
     },
-    title:{fontFamily:fonts.boldFont,fontSize:20,color:colors.text},
-    about:{fontFamily:fonts.boldFont,fontSize:14,color:colors.text,marginTop:8},
-    divider:{borderTopWidth:3,borderColor:colors.primary,width:64},
-    emptyListTitle:{fontFamily:fonts.boldFont,fontSize:24,color:colors.text,marginVertical:14}
+    title:{
+        fontFamily:fonts.boldFont,
+        fontSize:20,
+        color:colors.text,
+    },
+    about:{
+        fontFamily:fonts.regularFont,
+        fontSize:14,
+        color:colors.text,
+        marginTop:8
+    },
+    divider:{
+        borderTopWidth:3,
+        borderColor:colors.primary,
+        width:64
+    },
+    emptyListTitle:{
+        fontFamily:fonts.mediumFont,
+        fontSize:24,
+        color:colors.text,
+        marginVertical:14
+    }
 })
