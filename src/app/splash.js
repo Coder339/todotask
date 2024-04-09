@@ -8,7 +8,7 @@ export default function Splash(props) {
 
     useEffect(() => {
         setTimeout(() => {
-            navigation.navigate('App')
+            navigation.replace('App')
         }, 3000);
     }, [])
     

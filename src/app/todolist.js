@@ -1,4 +1,4 @@
-import { Alert, FlatList, Image, Pressable, StyleSheet, Text, TextInput, View } from 'react-native'
+import { Alert, FlatList, Image, Pressable, StatusBar, StyleSheet, Text, TextInput, View } from 'react-native'
 import React,{useState} from 'react'
 import { colors } from '../styles/colors'
 import { APP_IMAGE } from '../utils/constants'
@@ -234,7 +234,13 @@ export default function Todolist() {
 }
 
 const styles = StyleSheet.create({
-    container:{backgroundColor:colors.secondary,flex:1,paddingHorizontal:20,paddingTop:20},
+    container:{
+        backgroundColor:colors.secondary,
+        flex:1,
+        paddingHorizontal:20,
+        paddingTop:20,
+        marginTop:StatusBar.currentHeight
+    },
     input:{
         padding:0,
         margin:0,

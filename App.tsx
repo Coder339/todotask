@@ -26,19 +26,20 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import { NavigationContainer } from '@react-navigation/native';
 import RootStackScreen from './src/navigation/routes';
+import { colors } from './src/styles/colors';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+    backgroundColor: colors.secondary,
     flex:1,
   };
 
   return (
     <SafeAreaView style={backgroundStyle}>
         <StatusBar
-            barStyle={isDarkMode ? 'light-content' : 'dark-content'}
+            barStyle={'light-content'}
             backgroundColor={backgroundStyle.backgroundColor}
             translucent={true}
         />

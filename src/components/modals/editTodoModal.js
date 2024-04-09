@@ -48,10 +48,10 @@ export default function EditTodoModal(props) {
                         style={{
                             ...styles.input,
                             height:height/2,
-                            marginVertical:8
+                            marginVertical:8,
+                            verticalAlign:"top"
                         }}
                         multiline
-
                         onChangeText={(text)=>setMaxInput(text)}
                         value={maxInput}
                     />
