@@ -14,7 +14,7 @@ export default function Splash(props) {
     
     return (
         <View style={{flex:1,backgroundColor:colors.secondary,justifyContent:'center',alignItems:'center'}}>
-            <Text style={{color:colors.text,fontFamily:fonts.boldFont,fontSize:20}}>DIWAKKAR</Text>
+            <Text style={{color:colors.text,fontFamily:fonts.boldFont,fontSize:20}}>GYIZER</Text>
         </View>
     )
 }
