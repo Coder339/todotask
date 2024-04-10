@@ -272,7 +272,7 @@ const styles = StyleSheet.create({
         fontFamily:fonts.regularFont,
         fontSize:14,
         color:colors.text,
-        marginTop:8
+        marginTop:4
     },
     divider:{
         borderTopWidth:3,
